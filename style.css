@@ -113,13 +113,3 @@ body .technology {
   font-weight: 700;
   line-height: normal;
 }
-nav ul li {
-  display: inline;
-  width: 86px;
-  height: 24px;
-  flex-shrink: 0;
-  border-radius: 30px;
-  background: #cb92b1;
-  line-height: normal;
-  border: 30px solid red;
-}
