@@ -69,12 +69,12 @@ h5 p {
 div ul li {
   color: white;
   font-family: Merriweather Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   list-style-type: none;
-  padding-top: 34px;
+  padding-top: 26px;
   text-decoration: none;
 }
 
@@ -93,6 +93,20 @@ div ul li ion-icon {
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+#projects h5 {
+  position: absolute;
+  margin: 30px 0px 0px 30px;
+  width: 121px;
+  height: 26px;
+  flex-shrink: 0;
+  color: white;
+  font-family: Merriweather Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 #technology {
   margin: 40px;
   width: 348px;
@@ -131,4 +145,26 @@ body .technology {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+#experiences {
+  margin: 40px;
+  width: 348px;
+  height: 349px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#experiences h5 {
+  width: 141px;
+  height: 26px;
+  flex-shrink: 0;
+  color: white;
+  font-family: Merriweather Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  margin: 30px 0px 0px 30px;
 }
