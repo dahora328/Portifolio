@@ -13,7 +13,7 @@ body {
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-#about p {
+#about a {
   position: absolute;
   margin: 250px 0px 0px 170px;
   font-family: Merriweather Sans;
@@ -21,6 +21,9 @@ body {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
 }
 body p {
   position: absolute;
