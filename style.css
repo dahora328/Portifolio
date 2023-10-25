@@ -134,7 +134,7 @@ body .technology {
   height: 26px;
   flex-shrink: 0;
   font-family: Merriweather Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -173,36 +173,41 @@ body .technology {
   flex-shrink: 0;
   color: white;
   font-family: Merriweather Sans;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   position: absolute;
   margin: 30px 0px 0px 30px;
+  list-style-type: none;
 }
 
-li h3 {
-  margin: 40px 0px 0px 30px;
+#listexp ul li h3 {
   color: white;
   font-family: Merriweather Sans;
-  font-size: 1px;
+
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  list-style-type: none;
+}
+li h3 {
+  position: absolute;
+  margin: 40px 0px 0px 20px;
+  font-size: 20px;
 }
 
-li h4 {
+#listexp li h4 {
   position: absolute;
-  margin: 5px 0px 0px 60px;
+  margin: 65px 0px 0px 50px;
   font-family: Merriweather Sans;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
 #footer_about {
-  border: 1px solid red;
   color: white;
   margin: 40px;
   height: 400px;
@@ -210,4 +215,29 @@ li h4 {
   border-radius: 20px;
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#textcontent {
+  padding: 0px 20px;
+  text-align: justify;
+  font-family: Merriweather Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+#aboutme {
+  position: absolute;
+  margin: 45px 0px 0px 50px;
+  height: 300px;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+#contact {
+  position: absolute;
+  margin: 45px 0px 0px 800px;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
