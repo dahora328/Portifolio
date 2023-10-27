@@ -13,6 +13,7 @@ body {
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
 #about a {
   position: absolute;
   margin: 250px 0px 0px 170px;
